@@ -1,0 +1,24 @@
+{
+  "name": "eslint-config-alexpagnotta",
+  "version": "1.0.1",
+  "description": "Alex pagnotta's eslint configuration",
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config",
+    "alexpagnotta"
+  ],
+  "homepage": "https://github.com/AlexPagnotta/eslint-config-alexpagnotta#readme",
+  "bugs": {
+    "url": "https://github.com/AlexPagnotta/eslint-config-alexpagnotta/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AlexPagnotta/eslint-config-alexpagnotta"
+  },
+  "license": "MIT",
+  "author": "Alex Pagnotta <ap.alex.pagnotta@gmail.com> (https://alexpagnotta.dev)",
+  "workspaces": [
+    "packages/*"
+  ]
+}
