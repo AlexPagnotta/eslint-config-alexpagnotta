@@ -1,0 +1,33 @@
+{
+  "name": "eslint-config-typescript-alexpagnotta",
+  "version": "1.0.2",
+  "description": "Alex pagnotta's typescript eslint configuration",
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config",
+    "alexpagnotta",
+    "typescript"
+  ],
+  "homepage": "https://github.com/AlexPagnotta/eslint-config-alexpagnotta#readme",
+  "bugs": {
+    "url": "https://github.com/AlexPagnotta/eslint-config-alexpagnotta/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AlexPagnotta/eslint-config-alexpagnotta"
+  },
+  "license": "MIT",
+  "author": "Alex Pagnotta <ap.alex.pagnotta@gmail.com> (https://alexpagnotta.dev)",
+  "main": "index.js",
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.19.0",
+    "@typescript-eslint/parser": "^6.19.0",
+    "eslint-plugin-jsx-a11y": "^6.8.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0"
+  },
+  "dependencies": {
+    "eslint-config-base-alexpagnotta": "^1.0.0"
+  }
+}

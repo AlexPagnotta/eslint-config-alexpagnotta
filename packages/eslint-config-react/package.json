@@ -1,12 +1,13 @@
 {
-  "name": "eslint-config-alexpagnotta",
-  "version": "1.0.0",
-  "description": "Alex pagnotta's eslint configuration",
+  "name": "eslint-config-react-alexpagnotta",
+  "version": "1.0.1",
+  "description": "Alex pagnotta's react eslint configuration",
   "keywords": [
     "eslint",
     "eslintconfig",
     "config",
-    "alexpagnotta"
+    "alexpagnotta",
+    "react"
   ],
   "homepage": "https://github.com/AlexPagnotta/eslint-config-alexpagnotta#readme",
   "bugs": {
@@ -18,7 +19,13 @@
   },
   "license": "MIT",
   "author": "Alex Pagnotta <ap.alex.pagnotta@gmail.com> (https://alexpagnotta.dev)",
-  "workspaces": [
-    "packages/*"
-  ]
+  "main": "index.js",
+  "peerDependencies": {
+    "eslint-plugin-jsx-a11y": "^6.8.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0"
+  },
+  "dependencies": {
+    "eslint-config-typescript-alexpagnotta": "^1.0.0"
+  }
 }

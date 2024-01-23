@@ -1,10 +1,10 @@
 {
-  "name": "eslint-config-alexpagnotta",
+  "name": "prettier-config-alexpagnotta",
   "version": "1.0.0",
-  "description": "Alex pagnotta's eslint configuration",
+  "description": "Alex pagnotta's prettier configuration",
   "keywords": [
-    "eslint",
-    "eslintconfig",
+    "prettier",
+    "prettierconfig",
     "config",
     "alexpagnotta"
   ],
@@ -18,7 +18,8 @@
   },
   "license": "MIT",
   "author": "Alex Pagnotta <ap.alex.pagnotta@gmail.com> (https://alexpagnotta.dev)",
-  "workspaces": [
-    "packages/*"
-  ]
+  "main": "index.js",
+  "peerDependencies": {
+    "prettier": "^3.2.4"
+  }
 }
