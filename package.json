@@ -1,6 +1,5 @@
 {
   "name": "eslint-config-alexpagnotta",
-  "version": "1.0.0",
   "description": "Alex pagnotta's eslint configuration",
   "keywords": [
     "eslint",
@@ -20,5 +19,13 @@
   "author": "Alex Pagnotta <ap.alex.pagnotta@gmail.com> (https://alexpagnotta.dev)",
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "scripts": {
+    "changeset": "changeset",
+    "version": "changeset version",
+    "release": "changeset publish"
+  },
+  "dependencies": {
+    "@changesets/cli": "^2.27.1"
+  }
 }

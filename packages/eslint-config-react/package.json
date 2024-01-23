@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-react-alexpagnotta",
-  "version": "1.0.1",
+  "version": "0.1.0",
   "description": "Alex pagnotta's react eslint configuration",
   "keywords": [
     "eslint",
@@ -26,6 +26,6 @@
     "eslint-plugin-react-hooks": "^4.6.0"
   },
   "dependencies": {
-    "eslint-config-typescript-alexpagnotta": "^1.0.0"
+    "eslint-config-typescript-alexpagnotta": "^0.1.0"
   }
 }
