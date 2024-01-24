@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-base-alexpagnotta",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Alex pagnotta's base eslint configuration",
   "keywords": [
     "eslint",
