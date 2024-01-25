@@ -4,12 +4,17 @@ module.exports = {
     "plugin:react-hooks/recommended",
     "eslint-config-typescript-alexpagnotta",
   ],
+  plugins: ["react", "jsx-a11y"],
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
     },
   },
-  plugins: ["react", "jsx-a11y"],
+  settings: {
+    react: {
+      version: "detect",
+    },
+  },
   rules: {
     "react/prop-types": "off", // Disable as we are not using prop-types
     "react/react-in-jsx-scope": "off", // No need to have react in scope anymore

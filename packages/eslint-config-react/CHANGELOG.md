@@ -1,5 +1,11 @@
 # eslint-config-react-alexpagnotta
 
+## 1.1.1
+
+### Patch Changes
+
+- Added "settings/react/version" option to eslint config
+
 ## 1.1.0
 
 ### Minor Changes
